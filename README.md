@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
 ![Machine Learning](https://img.shields.io/badge/ML-Clustering-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 📋 Project Overview
 
