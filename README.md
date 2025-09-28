@@ -75,36 +75,6 @@ PM2.5-Insight/
 └── docs/             # Documentation
 ```
 
-## 🚀 Quick Start
-
-### Installation
-```bash
-# Clone repository
-git clone https://github.com/yourusername/PM2.5-Insight.git
-cd PM2.5-Insight
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### Basic Usage
-```python
-from src.clustering import PM25ClusterAnalyzer
-
-# Initialize analyzer
-analyzer = PM25ClusterAnalyzer()
-
-# Load and cluster data
-results = analyzer.analyze_cities('data/cities_pm25.csv')
-
-# View results
-print(results.cluster_summary)
-```
-
-### Running the Analysis
-```bash
-python src/main.py --data data/raw/cities_pm25.csv --clusters 6
-```
 
 ## 📈 Results & Insights
 
@@ -114,31 +84,14 @@ The clustering provides:
 - **Priority areas** for intervention
 - **Benchmarking** against air quality standards
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - Environmental Protection Agency (EPA) for air quality standards
 - World Health Organization for health impact data
 - Scikit-learn community for machine learning tools
 
-## 📞 Contact
 
-**Project Maintainer**: Your Name  
-**Email**: your.email@example.com  
-**Project Link**: [https://github.com/yourusername/PM2.5-Insight](https://github.com/yourusername/PM2.5-Insight)
+**Project Link**: [https://airapp.pythonanywhere.com/predict]
 
 ---
 
